@@ -31,6 +31,7 @@ Here are the high-level differences between the Community Edition and Enterprise
 | Process tree graph on recent activity page       | This feature is not available in the Community Edition. In the Enterprise Edition, the recent activity page includes a process tree graph to help you understand the process activity.                                                                       |
 | Default rules       | Predefined rule sets are not available in the Community Edition.                                                                            |
 | Faster config refresh and Live query refresh       | This feature is not available in the Community Edition. In the Enterprise Edition, config refresh and live queries refresh are quick because of a notification system which inform agents about new updates. In contrast, the Community Edition uses  osquery tls plugin (latency based on refresh interval specified) that polls to server periodically for new config or live query changes.                                                                                 |  
+| Container event monitoring       | This feature is not available in the Community Edition. The Enterprise Edition offers visibility into events that run within Docker containers on the Linux platform.                                                                                 |  
 
 For more information about the Enterprise Edition, Contact [support](mailto:support@eclecticiq.com).
 
@@ -47,9 +48,9 @@ To learn more about the EclecticIQ Endpoint Response Community Edition, review t
 
 - [EclecticIQ Endpoint Response Community Edition 4.0 Release Notes](docs/eiq_er_ce_release_notes.pdf)
 - [EclecticIQ Endpoint Response Community Edition 4.0 Deployment Guide](docs/eiq_er_ce_deployment_guide.pdf)
-- [EclecticIQ Endpoint Response Community Edition 4.0 Troubleshooting Guide](docs/eiq_er_ce_troubleshooting_guide.pdf)
-- [EclecticIQ Endpoint Response Community Edition 4.0 Product Guide](docs/eiq_er_ce_product_guide.pdf)
-- [EclecticIQ Endpoint Response Community Edition 4.0 REST API Guide](docs/eiq_er_ce_restapi_guide.pdf)
+- [EclecticIQ Endpoint Response 4.0 Troubleshooting Guide](docs/eiq_er_ce_troubleshooting_guide.pdf)
+- [EclecticIQ Endpoint Response 4.0 Product Guide](docs/eiq_er_ce_product_guide.pdf)
+- [EclecticIQ Endpoint Response 4.0 REST API Guide](docs/eiq_er_ce_restapi_guide.pdf)
 
 ## Integration with analytics systems
 

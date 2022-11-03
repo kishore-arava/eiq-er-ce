@@ -16,7 +16,7 @@ The EclecticIQ Endpoint Response platform is available in two flavors:
 - Enterprise Edition
 - Community Edition
 
-The Enterprise Edition is the full version and it provides an advanced set of features and dedicated support. The Community Edition provides limited features and allows you to experience most product features.
+The Enterprise Edition is the full version and it provides an advanced set of features and dedicated support. The Community Edition provides limited features and allows you to experience most product features. To get involved in the EclecticIQ Endpoint Response community and access investigation and configuration techniques, review the [content repository](https://github.com/eclecticiq/eiq-er-community-exchange).
 
 Here are the high-level differences between the Community Edition and Enterprise Edition.
 
@@ -32,8 +32,6 @@ Here are the high-level differences between the Community Edition and Enterprise
 | Default rules       | Predefined rule sets are not available in the Community Edition.                                                                            |
 | Faster config refresh and Live query refresh       | This feature is not available in the Community Edition. In the Enterprise Edition, config refresh and live queries refresh are quick because of a notification system which inform agents about new updates. In contrast, the Community Edition uses  osquery tls plugin (latency based on refresh interval specified) that polls to server periodically for new config or live query changes.                                                                                 |  
 | Container event monitoring       | This feature is not available in the Community Edition. The Enterprise Edition offers visibility into events that run within Docker containers on the Linux platform.                                                                                 |  
-
-For more information about the Enterprise Edition, Contact [support](mailto:support@eclecticiq.com).
 
 ## Components
 
